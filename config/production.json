@@ -1,0 +1,23 @@
+{
+  "environment": "production",
+  "server": {
+    "readTimeout": 5,
+    "writeTimeout": 15,
+    "port": ":5010"
+  },
+  "redis": {
+    "address": "",
+    "password": "",
+    "db": 3,
+    "poolSize":100
+  },
+  "log": {
+    "fileName": "/home/ubuntu/path.log",
+    "maxSize": 50,
+    "maxBackups": 3,
+    "maxAge": 28
+  },
+  "cors": {
+    "allowedOrigin": []
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "environment": "development",
+  "server": {
+    "readTimeout": 5,
+    "writeTimeout": 15,
+    "port": ":8120"
+  },
+  "cors": {
+    "allowedOrigin": []
+  }
+}
